@@ -7,8 +7,7 @@ function App() {
   return (
     <>
       <div className='w-full h-screen bg-zinc-900 text-white'>
-        <h1>{a}</h1>
-        <button onClick={()=>b(a+1)} className='px-3 py-1 bg-green-500 rounded-md text-xs'>Click</button>
+         <Product age="25" data={{age:24,name:"varsha"}} />
       </div>
     </>
   )
